@@ -11,6 +11,7 @@ function agregar() {
   mostrar();
 }
 
+
 function mostrar() {
   const lista = document.getElementById("lista");
   lista.innerHTML = "";
