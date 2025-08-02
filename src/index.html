@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>CRUD Básico</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>CRUD Usuarios</h1>
+
+  <!-- Campos de login (feature/login-form) -->
+  <input type="text" id="usuario" placeholder="Usuario">
+  <input type="password" id="clave" placeholder="Contraseña">
+  <br><br>
+
+  <!-- Campo para agregar nombre -->
+  <input type="text" id="nombre" placeholder="Nombre">
+  <button onclick="agregar()">Agregar</button>
+
+  <!-- Botón de pago (feature/payment-api-integration) -->
+  <button onclick="pagar()">Pagar</button>
+
+  <!-- Lista de usuarios -->
+  <ul id="lista"></ul>
+
+  <!-- Dashboard: contador de usuarios -->
+  <p id="total"></p>
+
+  <!-- Fecha actual (hotfix/fix-date-format) -->
+  <p id="fecha"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
