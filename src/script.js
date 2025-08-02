@@ -38,3 +38,14 @@ function eliminar(index) {
 function pagar() {
   alert("Pago simulado con mucho éxito.");
 }
+function mostrarFechaFormateada() {
+  const fecha = new Date();
+  const dia = String(fecha.getDate()).padStart(2, '0');
+  const mes = String(fecha.getMonth() + 1).padStart(2, '0');
+  const anio = fecha.getFullYear();
+  const fechaFormateada = `${dia}/${mes}/${anio}`;
+  document.getElementById("fechaActual").textContent = `Fecha: ${fechaFormateada}`;
+}
+
+// Ejecutar al cargar la página
+mostrarFechaFormateada();
