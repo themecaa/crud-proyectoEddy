@@ -36,5 +36,5 @@ function eliminar(index) {
 }
 
 function pagar() {
-  alert("Pago simulado con éxito.");
+  alert("Pago simulado con mucho éxito.");
 }
